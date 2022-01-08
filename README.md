@@ -1,2 +1,4 @@
-# -spring-boot-jms-transaction-ibm-mq
-Implementation of JMS transactions using Spring Boot, JMS Listener, JMS Template for IBM MQ
+# spring-boot-jms-transaction-ibm-mq
+Implementation of JMS transactions in Spring Boot using JMS Listener and JMS Template
+
+JMS Provider : IBM MQ
