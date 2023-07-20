@@ -1,4 +1,4 @@
-package com.greenfall.jms;
+package com.ngbsn.jms;
 
 import com.ibm.mq.jms.MQQueueConnectionFactory;
 import org.slf4j.Logger;
