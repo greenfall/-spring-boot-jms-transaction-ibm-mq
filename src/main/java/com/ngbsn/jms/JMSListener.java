@@ -20,10 +20,6 @@ public class JMSListener {
     @JmsListener(destination = "DEV.LOCAL.TEST_IN_QUEUE")
     @Transactional(rollbackFor = Exception.class)
     public void process(final String message) {
-        try {
-            testService.process(message);
-        } catch (Exception e) {
-            logger.error("An error occurred in the listener", e);
-        }
+        testService.process(message);
     }
 }
